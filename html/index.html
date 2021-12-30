@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!--bootstrap stylesheets--> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--custom css-->
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../javascript/index.js"></script>
+</head>
+
+<body class="col-12 col-s-12 ">
+    
+        
+    
+    <!--header-->
+        <div class="hdr col-12 col-s-12"> 
+          <div class="logo">
+            <a href="#"><img src="../images/Logo.jpg" alt="Logo"></a>
+          </div>
+         
+
+          <div class="nav-items ">
+              <div class="item">
+                <a href="#">Home</a>
+              </div>
+              <div class="item">
+                <a href="#">About</a>
+              </div>
+              <div class="item">
+                <a href="#">Resume</a>
+              </div>
+              <div class="item">
+                <a href="#">Contact</a>
+              </div>
+            </div>
+
+            <div class="mobile-nav">
+              <div class="mobile-menu" onclick="mobileMenu(this)">
+              <button onclick="dropFunc()" class="dropBtn" style="background-color:transparent;border:none;" >
+                
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                
+              </button>
+            </div>
+            
+            <div class="mobile-drop" id="dropContd">
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Resume</a>
+              <a href="#">Contact</a>
+            </div>
+          </div>
+         
+        
+        </div>
+    
+    <!--header-->
+
+<!--Body-->
+<div class="body-items">
+  <div class="selfie">
+    <img src="../images/proImg.png" alt="selfie" class="myImage">
+  </div>
+  <hr style="color: white;width: 2px;height: 300px;margin-left: 970px;position:absolute;">
+    <div class="container-res" >
+
+        <div class="info">
+            <span>
+                Hi there! I'm</span><br>
+                <strong style="color: rgb(223, 223, 223); font-weight: bold; font-size: 30px;">
+                    Sahan Randika</strong><br>
+                    <strong style="color: rgb(223, 223, 223); font-weight: bold; font-size: 60px;">
+                      UX / UI Designer</strong>
+                    
+                    <h2 class="text-muted">Java / C++/ C programmer </h2><br>
+                <span style="color: rgb(233, 233, 233);font-weight: bold;">
+                  I will give the best service for you, using my curiosity<br> to discover valuable insights while creating extensively<br> thought-out design experiences.
+                </span>
+            
+        </div>
+    </div>
+    
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
